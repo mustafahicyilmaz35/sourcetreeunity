@@ -29,16 +29,16 @@ public class KarakterHareket : MonoBehaviour
 
         if (Input.GetKey(KeyCode.A))
         {
-            transform.Rotate(new Vector3(0, -90*hiz*Time.deltaTime, 0));
+            transform.Rotate(new Vector3(0, -90*1f*Time.deltaTime, 0));
         }
         if (Input.GetKey(KeyCode.D))
         {
-            transform.Rotate(new Vector3(0, 90 * hiz * Time.deltaTime, 0));
+            transform.Rotate(new Vector3(0, 90 * 1f * Time.deltaTime, 0));
         }
 
         if (Input.GetKey(KeyCode.S))
         {
-            transform.Rotate(new Vector3(0, 180 * 3 * Time.deltaTime, 0));
+            transform.Rotate(new Vector3(0, 180 * 1f * Time.deltaTime, 0));
         }
 
 
